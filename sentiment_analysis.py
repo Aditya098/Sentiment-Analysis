@@ -105,16 +105,7 @@ def main():
     #nutweets = [tweet for tweet in tweets if tweet['sentiment'] != 'negative' and 'positive']
     print("Neutral tweets percentage: {} %".format(100*nutweets/len(tweets)))
   
- 
-    # printing first 5 positive tweets
-    print("\n\nPositive tweets:")
-    for tweet in ptweets[:10]:
-        print(tweet['text'])
- 
-    # printing first 5 negative tweets
-    print("\n\nNegative tweets:")
-    for tweet in ntweets[:10]:
-        print(tweet['text'])
+
  
 if __name__ == "__main__":
     # calling main function
