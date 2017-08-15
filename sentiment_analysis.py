@@ -1,10 +1,10 @@
 import plotly as py
-py.tools.set_credentials_file(username='adityac564', api_key='r0oOvo7yWphavCbFEoMG') # plotly username and API key
+py.tools.set_credentials_file(username='xxxxxxxxx', api_key='r0oOxxxxxxxx') # plotly username and API key
 import plotly.plotly as py
 import plotly.graph_objs as go
 import plotly.tools as plotly_tools
 from plotly.graph_objs import *
-py.sign_in("adityac564", "r0oOvo7yWphavCbFEoMG")
+py.sign_in("xxxxxx", "r0oOxxxxxxxx")
 
 import re
 import tweepy
@@ -20,10 +20,10 @@ class TwitterClient(object):
         Class constructor or initialization method.
         '''
         # keys and tokens from the Twitter Dev Console
-        consumer_key = 'Dl6Xl0Xh3ydmcV9bw3Pvr94B4'                              # Twitter API key and access token
-        consumer_secret = 'flrjl36HbaLj3s2zFo8Mzkxv9Lzbmx7KcQLwDlYbDcsegZj91G'
-        access_token = '809633084370886657-He6d90EMjqSEfU87A7a0EmFcl1T9Yo9'
-        access_token_secret = 'Cv37nNYgIDBvdn0KBiVS0CAhTftQ1bzrflSwyz4Q8jjFU'
+        consumer_key = 'xxxxxxxxxxxx'                              # Twitter API key and access token
+        consumer_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        access_token = 'xxxxxxxxxxxxxxxxxxxxxxx'
+        access_token_secret = 'xxxxxxxxxxxxxxxxxxxx'
  
         # attempt authentication
         try:
